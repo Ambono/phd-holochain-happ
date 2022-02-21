@@ -2,6 +2,8 @@
 members = [
   "zomes/numbers",
   "zomes/whoami",
+  "zomes/squareroots",
+  "zomes/pcrtests",
 ]
 
 [profile.dev]

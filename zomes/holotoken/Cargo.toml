@@ -1,0 +1,14 @@
+[package]
+name = "holotoken"
+version = "0.0.1"
+authors = [ "modplehphdstudent", "modplehq86@gmail.com" ]
+edition = "2018"
+
+[lib]
+name = "holotoken"
+crate-type = [ "cdylib", "rlib" ]
+
+[dependencies]
+hdk = "0.0.100"
+serde = "1"
+rand = "0.7.0"

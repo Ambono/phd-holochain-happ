@@ -1,0 +1,13 @@
+[package]
+name = "squareroots"
+version = "0.0.1"
+authors = [ "modplehphdstudent", "modplehq86@gmail.com" ]
+edition = "2018"
+
+[lib]
+name = "squareroots"
+crate-type = [ "cdylib", "rlib" ]
+
+[dependencies]
+hdk = "0.0.100"
+serde = "1"

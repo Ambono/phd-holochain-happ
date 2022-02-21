@@ -28,8 +28,10 @@ orchestrator.registerScenario("sample test", async (s, t) => {
   // array structure as you created in your installation array.
   const [[alice_common]] = await alice.installAgentsHapps(installation);
 
-  let result = await alice_common.cells[0].call("numbers", "add_ten", { number: 10 });
-  t.deepEqual(result, { other_number: 20 });
+ // let result = await alice_common.cells[0].call("numbers", "add_ten", { number: 10 });
+  let result = await alice_common.cells[0].call("squareroots", "square_root", { number: 10 });
+   // t.deepEqual(result, { other_number: 20 });
+  t.deepEqual(result, { square_root: 100 });
 });
 
 orchestrator.run();

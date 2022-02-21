@@ -8,3 +8,9 @@ zomes:
     bundled: ../../target/wasm32-unknown-unknown/release/numbers.wasm
   - name: whoami
     bundled: ../../target/wasm32-unknown-unknown/release/whoami.wasm
+  - name: squareroots
+    bundled: ../../target/wasm32-unknown-unknown/release/squareroots.wasm
+  - name: pcrtests
+    bundled: ../../target/wasm32-unknown-unknown/release/pcrtests.wasm
+  - name: holotoken
+    bundled: ../../target/wasm32-unknown-unknown/release/holotoken.wasm
