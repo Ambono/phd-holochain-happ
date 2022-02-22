@@ -1,11 +1,11 @@
 [package]
-name = "holotoken"
+name = "tradingprices"
 version = "0.0.1"
 authors = [ "modplehphdstudent", "modplehq86@gmail.com" ]
 edition = "2018"
 
 [lib]
-name = "holotoken"
+name = "tradingprices"
 crate-type = [ "cdylib", "rlib" ]
 
 [dependencies]

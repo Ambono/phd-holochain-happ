@@ -12,5 +12,8 @@ zomes:
     bundled: ../../target/wasm32-unknown-unknown/release/squareroots.wasm
   - name: pcrtests
     bundled: ../../target/wasm32-unknown-unknown/release/pcrtests.wasm
-  - name: holotoken
-    bundled: ../../target/wasm32-unknown-unknown/release/holotoken.wasm
+  - name: holotokens
+    bundled: ../../target/wasm32-unknown-unknown/release/holotokens.wasm
+  - name: tradingprices
+    bundled: ../../target/wasm32-unknown-unknown/release/tradingprices.wasm
+    
